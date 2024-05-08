@@ -6,9 +6,9 @@ public class SimpleCalculator {
     }
 
 
-    // class example 1
+    // do this to show string example
 
-    public String hello(){
-        return "Hello World";
-    }
+//    public String hello(){
+//        return "Hello World";
+//    }
 }
