@@ -1,0 +1,4 @@
+STEPS 1 -- Implement teacher can teach a course
+STEPS 2 -- Implement student can take a course
+STEP 3 -- A principal can expel a student
+STEP 4 -- A principal admitting student based on age
