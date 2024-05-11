@@ -5,7 +5,10 @@ public class Main {
         Developers d1 = new Developers(1, "Emmanuel");
         Developers d2 = new Developers(2, "Vivian");
 
+
+        //do this to show the power of using static
         // we can change the institute of all devs by just one line of code
+
         //Developers.institute = "semi-colon";
 
         // do this example to show why static is better in this scenerio
