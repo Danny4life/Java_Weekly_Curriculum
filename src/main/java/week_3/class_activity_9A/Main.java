@@ -4,12 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Dog bingo = new Dog();
 
+        // do this first to show the importance of using super
         bingo.printColor();
 
-        // print this later
-       // bingo.printColorWhite();
+        // print this after to access color white from parent
+        //bingo.printColorWhite();
 
-        bingo.bark();
+       // bingo.bark();
 
     }
 }
