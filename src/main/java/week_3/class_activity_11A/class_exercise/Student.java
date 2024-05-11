@@ -17,6 +17,6 @@ public class Student {
     }
 
     void display(){
-        System.out.println(matricNum + " " + studentName + " " + university);
+        System.out.println(matricNum + " " + studentName + " " + university + " University");
     }
 }
