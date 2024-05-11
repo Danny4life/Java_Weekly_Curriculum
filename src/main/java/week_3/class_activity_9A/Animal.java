@@ -4,7 +4,7 @@ public class Animal {
     String color = "White";
 
     // for invoking parent method class example
-    void bark(){
-        System.out.println("woof woof");
-    }
+//    void bark(){
+//        System.out.println("woof woof");
+//    }
 }

@@ -9,16 +9,15 @@ public class Dog extends Animal{
         System.out.println(color);
     }
 
-    // to access the color white
-
-//    void printColorWhite(){
-//        System.out.println(super.color);
-//    }
+    // to access the color white do this with the super
+    void printColorWhite(){
+        System.out.println(super.color);
+    }
 
 
     // invoke parent class method example
-    @Override
-    void bark() {
-        super.bark();
-    }
+//    @Override
+//    void bark() {
+//
+//    }
 }
