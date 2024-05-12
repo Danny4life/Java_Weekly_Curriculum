@@ -5,7 +5,7 @@ public class Developers {
     String name;
     static String institute = "Decagon";
 
-    // change institute to non-static to show the difference
+    // change institute to non-static to show the difference after
     //String institute = "Decagon";
 
     public Developers(int id, String name) {

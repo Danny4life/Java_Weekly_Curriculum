@@ -11,5 +11,10 @@ public class ExerciseOne {
         }catch (Exception e){
             System.out.println(num1/(num2+2));
         }
+
+
+        // do this to show the exception after
+//        num3 = num1 / num2;
+//        System.out.println(num3 + 2);
     }
 }
