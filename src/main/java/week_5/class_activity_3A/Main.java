@@ -43,5 +43,24 @@ public class Main {
 
 //        System.out.println("******Both Males on the queue*******");
 //        System.out.println(cafeteriaService2.collectMeal(cafeteria));
+
+
+
+
+
+
+//        List<Integer> num = new ArrayList<>();
+//
+//        num.add(4);
+//        num.add(3);
+//        num.add(2);
+//        num.add(1);
+//
+//        Collections.sort(num);
+//
+//
+//        for(Integer nums: num){
+//            System.out.println(nums);
+//        }
     }
 }
