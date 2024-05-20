@@ -46,21 +46,5 @@ public class Main {
 
 
 
-
-
-
-//        List<Integer> num = new ArrayList<>();
-//
-//        num.add(4);
-//        num.add(3);
-//        num.add(2);
-//        num.add(1);
-//
-//        Collections.sort(num);
-//
-//
-//        for(Integer nums: num){
-//            System.out.println(nums);
-//        }
     }
 }
