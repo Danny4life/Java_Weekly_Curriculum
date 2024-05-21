@@ -29,6 +29,7 @@ public class CafeteriaServiceImpl implements CafeteriaService {
        DecaDevs decaDevs = devsOnQueue.poll();
 
 
+
         return decaDevs.getName() + " has taken " + meal.getMealType() + ".";
 
     }
