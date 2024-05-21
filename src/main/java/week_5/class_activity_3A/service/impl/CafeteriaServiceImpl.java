@@ -8,7 +8,7 @@ import week_5.class_activity_3A.service.CafeteriaService;
 import java.util.PriorityQueue;
 
 public class CafeteriaServiceImpl implements CafeteriaService {
-    PriorityQueue<DecaDevs> devsOnQueue;
+    PriorityQueue<DecaDevs> devsOnQueue = new PriorityQueue<>();
 
     public CafeteriaServiceImpl() {
         devsOnQueue = new PriorityQueue<>(new DecadevComparator());
@@ -26,8 +26,10 @@ public class CafeteriaServiceImpl implements CafeteriaService {
             return "No devs is on the queue";
         }
 
-        DecaDevs decaDevs = devsOnQueue.poll();
+       DecaDevs decaDevs = devsOnQueue.poll();
+
 
         return decaDevs.getName() + " has taken " + meal.getMealType() + ".";
+
     }
 }
