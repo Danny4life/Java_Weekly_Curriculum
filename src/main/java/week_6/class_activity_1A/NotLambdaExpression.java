@@ -5,7 +5,7 @@ public class NotLambdaExpression{
     public static void main(String[] args) {
        int width = 10;
 
-        //without lambda, Drawable implementation using anonymous class
+        // do this first without lambda, Drawable implementation using anonymous class
         Drawable d = new Drawable(){
             @Override
             public void draw() {
@@ -14,6 +14,7 @@ public class NotLambdaExpression{
         };
         d.draw();
 
+        // do this after
         // 1A1 with lambda expression it gives less line of code to achieve same result
         Drawable d2 = ()-> {
             System.out.println("Drawing " + width);
