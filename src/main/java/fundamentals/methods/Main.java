@@ -7,5 +7,11 @@ public class Main {
         String name = res.myName("Segun");
 
         System.out.println(name);
+
+        MagicBox box = new MagicBox();
+
+        System.out.println(box.getSecretNumber());
+
+       box.setSecretNumber(20);
     }
 }
