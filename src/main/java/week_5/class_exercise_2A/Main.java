@@ -15,10 +15,13 @@ public class Main {
         HashSet<Book> set = new HashSet<>();
 
         set.add(b1);
+        set.add(b1);
         set.add(b2);
         set.add(b3);
         set.add(b4);
         set.add(b5);
+        set.add(b5);
+
 
 
         for(Book s : set){
